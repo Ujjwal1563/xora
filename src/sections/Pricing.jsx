@@ -1,10 +1,11 @@
+import { Element } from "react-scroll";
 
 const Pricing = () => {
 
   return (
-    <div>
-      Pricing
-    </div>
+    <section>
+      <Element name="pricing"></Element>
+    </section>
   );
 };
 
